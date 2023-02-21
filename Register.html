@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registeration</title>
+</head>
+<body>
+    <form action="">
+        <h1><strong>Registration</strong></h1>
+        <hr size="10" noshade="">
+        <table>
+             <tr>
+                <td align="right" style="width: 25%"><strong>Full name :</strong></td>
+                <td align="left" style="width: 25%"><input type="text"></td>
+                <td style="width: 25%"></td>
+                <td style="width: 25%"></td>
+            </tr>
+            <hr size="5"noshade>
+            <tr>
+                <td align="right"><strong>Your Photo :</strong></td>
+                <td align="left"><input type="file" accept=".jpg,.png"></td>
+            </tr>
+            <tr >
+                <td align="right"><strong>Gender :</strong></td>
+                <td>
+                    <table  style="width:75%">
+                        <tr>
+                            <td align="center" style="width: 25%"><input type="radio" name="gender" value="Male" id="m"></td>
+                            <td align="center" style="width: 25%"><input type="radio" name="gender" value="Female" id="f"></td>
+                            <td align="center" style="width: 25%"><input type="radio" name="gender" value="Other" id="o"></td> 
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <table style="width:75%">
+                        <tr>
+                            <td align="center" style="width: 25%"> <label for="m"> MALE</label></td>
+                            <td align="center" style="width: 25%"><label for="f">FEMALE</label> </td>
+                            <td align="center" style="width: 25%"><label for="o">OTHER</label></td>
+                        </tr>
+                    </table>
+                </td>
+               
+            </tr>
+            <tr>
+                <td align="right" ><strong>Date of birth</strong></td>
+                <td align="left"><input type="date"></td>
+            </tr>
+            <tr>
+                <td align="right"><strong>Work experience</strong></td>
+                <td align="left"><input type="number" min="0"></td>
+            </tr>
+            <tr>
+                <td align="right"> <strong>Rate your knowledge on full stack</strong></td>
+                <td align="left"><input type="range" min="0" max="10"></td>
+            </tr>
+            <tr>
+                <td align="right"> <strong>Choose your courses :</strong></td>
+                <td>
+                    <table style="width:75%">
+                        <tr>
+                            <td align="center" style="width: 25%"><input type="checkbox" name="subject" value="Full Stack" id="fs"></td>
+                            <td align="center" style="width: 25%"><input type="checkbox" name="subject" value="Data Analyst" id="da"></td>
+                            <td align="center" style="width: 25%"><input type="checkbox" name="subject" value="Server Admin" id="sa"></td> 
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <table style="width:75%">
+                        <tr>
+                            <td align="center" style="width: 25%"> <label for="fs"> Full Stack</label></td>
+                            <td align="center" style="width: 25%"><label for="da">Data Analyst</label> </td>
+                            <td align="center" style="width: 25%"><label for="sa">Server Admin</label></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"><strong>E-mail :</strong></td>
+                <td align="left"><input type="email" name="" id=""></td>
+            </tr>
+            <tr>
+                <td align="right"><strong>Phone No :</strong></td>
+                <td align="left"><input type="tel" ></td>
+            </tr>
+            <tr>
+                <td align="right"><input type="reset"></td>
+                <td align="left"><input type="submit" value="Register"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
